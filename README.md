@@ -64,8 +64,11 @@ The project consist on including on a previous project "**[employee-csv-node](ht
   the use of Expressjs.
 
 Required features:
-- Http routing
+- Http routing.
 - Return the employee's information that match the query.
+
+Additional features:
+- Docker Compose version
 
 ### Built With
 
