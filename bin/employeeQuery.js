@@ -23,7 +23,7 @@ app.get('/', (request, response) => {
     <p>
         To query the employees list, please follow the next instructions:<br>
         <br>
-        1.- Append to <b>localhost:3000</b> a <b>/employee/</b> and your <b>query></b><br>
+        1.- Append to <b>localhost:3000</b> or <b>0.0.0.0:3050</b>a <b>/employee/</b> and your <b>query></b><br>
         2.- Queries available:<br>
     </p>
     <p>
@@ -32,10 +32,12 @@ app.get('/', (request, response) => {
     </p>
     <h2>Example</h2>
     <p>
-        localhost:3000<b>/employee/all</b>
+        localhost:3000<b>/employee/all</b><br>
+        0.0.0.0:3050<b>/employee/all</b>
     </p>
     <p>
-        localhost:3000<b>/employee/1</b>
+        localhost:3000<b>/employee/1</b><br>
+        0.0.0.0:3050<b>/employee/1</b>
     </p>
     `)
 })
