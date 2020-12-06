@@ -152,7 +152,7 @@ be learn, inspire, and create. Any contributions you make are
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](./MIT_LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/jubaan/employee-csv-express/blob/employee-csv-express/MIT_LICENSE.md) for more information.
 
 <!-- CONTACT -->
 ## Contact
