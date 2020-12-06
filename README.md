@@ -83,7 +83,7 @@ To get a local copy up and running follow these simple example steps.
 To run this script your local environment should have at least these
 installations.
 * [Nodejs](https://nodejs.dev)
-* [Expressjs](https://expressjs.com)k
+* [Expressjs](https://expressjs.com)
 * [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/) (Optional)
 * Linux/UNIX based OS (Recommended)
 
