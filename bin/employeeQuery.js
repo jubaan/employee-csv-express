@@ -3,6 +3,8 @@ import fs from 'fs';
 import searchFor from '../lib/searchFor.js';
 import listGenerator from '../lib/listGenerator.js';
 
+const PORT = 3050;
+const HOST = '0.0.0.0';
 let list = undefined;
 
 fs.readFile('./data/employees.csv', 'utf8', (error, data) => { 
@@ -44,6 +46,6 @@ app.get('/employee/:id', (request, response) => {
     response.send(searchFor(query, list));
 })
 
-app.listen(3000, () => {
-    console.log('application started.')
-})
+app.listen(PORT, HOST);
+
+console.log(`Running on http://${HOST}:${PORT}`);
