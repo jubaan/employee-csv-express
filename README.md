@@ -82,7 +82,8 @@ To get a local copy up and running follow these simple example steps.
 To run this script your local environment should have at least these
 installations.
 * [Nodejs](https://nodejs.dev)
-* [Expressjs](https://expressjs.com)
+* [Expressjs](https://expressjs.com)k
+* [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/) (Optional)
 * Linux/UNIX based OS (Recommended)
 
 ### Installation
@@ -107,6 +108,24 @@ installations.
   ```
   localhost:3000
   ```
+
+#### Run with `docker-compose`
+
+1. Follow steps 1 and 2 from <a href="#installation">Installation</a>
+
+2. Run the next command to build and run the docker image
+  ```sh
+  docker-compose up
+  ```
+  or to run a detach version
+  ```sh
+  docker-compose up -d
+  ```
+3. To stop the attach version press `CTRL + c` and to stop the detach version
+   enter the next command in the console:
+   ```sh
+   docker-compose down
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -185,7 +204,7 @@ Project Link: [Employee CSV Express](https://github.com/jubaan/epmloyee-csv-expr
 [stars-url]: https://github.com/jubaan/employee-csv-express/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jubaan/employee-csv-express.svg?style=for-the-badge
 [issues-url]: https://github.com/jubaan/employee-csv-express/issues
-[license-shield]: https://img.shields.io/github/license/jubaan/employee-csv-express.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/license-MIT-red?style=for-the-badge
 [license-url]: https://github.com/jubaan/employee-csv-express/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jubaan
