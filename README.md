@@ -106,24 +106,20 @@ installations.
    node bin/employeeQuery.js
    ```
 5. In your preferred browser go to:
-  ```
-  localhost:3000
-  ```
+   ```
+   localhost:3000
+   ```
 
 #### Run with `docker-compose`
 
 1. Follow steps 1 and 2 from <a href="#installation">Installation</a>
 
-2. Run the next command to build and run the docker image
-  ```sh
-  docker-compose up
-  ```
-  or to run a detach version
-  ```sh
-  docker-compose up -d
-  ```
-3. To stop the attach version press `CTRL + c` and to stop the detach version
-   enter the next command in the console:
+2. Run the next command to build and run a dettach version of the docker image
+   ```sh
+   docker-compose up -d
+   ```
+
+3. To stop the detach version enter the next command in the console:
    ```sh
    docker-compose down
    ```
@@ -131,20 +127,30 @@ installations.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Once you start the application, and go to `localhost:3000` you'll be prompted with the usage instructions:
+Once you start the application, and go to `localhost:3000` or `http://0.0.0.0:3050` 
+you'll be prompted with the usage instructions:
 
 1. Append the `localhost:3000` with `/employee/` + `query`.
   ```sh
   localhost:3000/employee/<query>
+  
+  # or docker-compose detach version
+  0.0.0.0:3050/employee/<query>
   ```
 2. The available queries are:
   - "**all**": This will show the list of all employees.
     ```
     localhost:3000/employee/all
+    
+    # or docker-compose detach version
+    0.0.0.0:3050/employee/all
     ```
   - The ID number of any available employee from `1` to `10`.
     ```
     localhost:3000/employee/10
+    
+    # or docker-compose detach version
+    0.0.0.0:3050/employee/10
     ```
 
 <!-- ROADMAP -->
