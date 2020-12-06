@@ -95,11 +95,15 @@ installations.
    ```sh
    cd enroute/employee-csv-express
    ```
-3. Run the next command. See <a href="#usage">Usage</a> to learn how to use it.
+3. Run the next command to install all needed dependencies.
+   ```sh
+   npm install
+   ```
+4. Run the next command to run the server.
    ```sh
    node bin/employeeQuery.js
    ```
-4. In your preferred browser go to:
+5. In your preferred browser go to:
   ```
   localhost:3000
   ```
