@@ -1,0 +1,25 @@
+{
+  "name": "employee-csv-express",
+  "version": "1.0.0",
+  "description": "[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url] [![LinkedIn][linkedin-shield]][linkedin-url]",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubaan/employee-csv-express.git"
+  },
+  "keywords": [],
+  "author": "Julio Añoveros <julio.ab@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jubaan/employee-csv-express/issues"
+  },
+  "homepage": "https://github.com/jubaan/employee-csv-express#readme"
+}
