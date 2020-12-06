@@ -20,7 +20,7 @@
     <a href="https://github.com/jubaan/employee-csv-express"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://repl.it/@jubaan/employee-csv-express">View Demo</a>
+    <a href="http://45.33.123.79:5100">View Demo (Available until Dec 31, 2020)</a>
     ·
     <a href="https://github.com/jubaan/employee-csv-express/issues">Report Bug</a>
     ·
