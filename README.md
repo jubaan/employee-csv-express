@@ -15,7 +15,7 @@
   <h3 align="center">Employee CSV Express</h3>
 
   <p align="center">
-    This project is part of the **Enroute | Rockstars G5** apprenticeship 2020 program.
+  This project is part of the <b>Enroute | Rockstars G5</b> apprenticeship 2020 program.
     <br />
     <a href="https://github.com/jubaan/employee-csv-express"><strong>Explore the docs »</strong></a>
     <br />
